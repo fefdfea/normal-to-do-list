@@ -71,6 +71,15 @@ input::placeholder{
   transform: translate3d(-50%,-50%,0);
 }
 
+.js-weather{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 @keyframes fadeIn{
   from{
     opacity: 0;
