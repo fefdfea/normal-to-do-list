@@ -1,0 +1,81 @@
+input::placeholder{
+  color: black;
+  font-size: 1.5rem;
+}
+
+.title{
+  color: black;
+}
+.list-style{
+  list-style: none;
+}
+
+.js-to-do-list{
+  padding: 0;
+}
+
+.clock{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  color: #fff;
+  font-size: 8rem;
+}
+
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 0.5s linear;
+}
+
+.input{
+  width: 33em;
+  height: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+}
+
+.center{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -4em;
+}
+
+.guide{
+  color: #fff;
+  font-weight: bold;
+  transform: translateY(30px);
+  transition: opacity 0.5s;
+}
+
+.guide-fade{
+  opacity: 0;
+}
+
+.js-to-do-list{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
